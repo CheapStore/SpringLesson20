@@ -1,0 +1,12 @@
+### Create book
+POST localhost:8081/book
+Content-Type: application/json
+
+{
+  "title": "Shum bola",
+  "author": "G`ofur G`ulom"
+}
+
+### getall book
+
+GET localhost:8081/book

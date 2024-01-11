@@ -1,0 +1,16 @@
+### Create student
+POST localhost:8081/student
+Content-Type: application/json
+
+{
+  "name": "Jasur",
+  "age": 22,
+  "surname": "Shukurov",
+  "phone": "43"
+
+}
+
+
+### Create student
+GET localhost:8081/student
+
